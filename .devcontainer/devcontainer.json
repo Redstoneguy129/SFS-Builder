@@ -1,0 +1,7 @@
+{
+    "name": "SFS Builder",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [5000],
+    "extensions": ["svelte.svelte-vscode", "bradlc.vscode-tailwindcss", "ms-vscode.vscode-typescript-next"],
+    "postCreateCommand": "npm install"
+}
