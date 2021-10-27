@@ -51,15 +51,14 @@
     "postcss": "^7.0.39",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Redstoneguy129/SFS-Builder.git"
-  },
   "keywords": [],
   "author": "Redstoneguy129",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Redstoneguy129/SFS-Builder/issues"
   },
-  "homepage": "https://github.com/Redstoneguy129/SFS-Builder#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redstoneguy129/SFS-Builder.git"
+  }
 }

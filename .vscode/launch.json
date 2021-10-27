@@ -2,30 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm start",
             "name": "Dev",
             "request": "launch",
-            "runtimeArgs": [
-                "run-script",
-                "dev"
-            ],
-            "runtimeExecutable": "npm",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
+            "type": "node-terminal"
         },
         {
-            "name": "Start",
-            "request": "launch",
-            "runtimeArgs": [
-                "run-script",
-                "start:svelte"
-            ],
-            "runtimeExecutable": "npm",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
-        }
+            "type": "firefox",
+            "request": "attach",
+            "name": "Attach"
+        },
     ]
 }
